@@ -56,15 +56,19 @@ body {
   position: sticky;
   top: 0;
   z-index: 10;
+  border-bottom: 1px solid var(--line);
+  background: color-mix(in srgb, var(--bg) 78%, transparent);
+  backdrop-filter: blur(14px);
+}
+
+.bar-inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 16px;
   max-width: 940px;
   margin: 0 auto;
-  padding: 18px 24px;
-  backdrop-filter: blur(14px);
-  background: color-mix(in srgb, var(--bg) 72%, transparent);
+  padding: 16px 24px;
 }
 
 .brand {
