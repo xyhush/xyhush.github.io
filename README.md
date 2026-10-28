@@ -8,6 +8,8 @@ A one-page personal website, published with **GitHub Pages**.
 | **Repository** | https://github.com/xyhush/xyhush.github.io |
 | **Branch** | `main` (site files served from the repository root) |
 
+![Preview of the homepage](preview.png)
+
 ## What it is
 
 A single static page introducing me — who I am, what I'm working on right now,
@@ -26,6 +28,7 @@ Sections:
 ```
 index.html    the page itself
 style.css     all styling (dark theme by default, light theme via prefers-color-scheme)
+preview.png   a screenshot of the live page
 README.md     this preview
 ```
 
