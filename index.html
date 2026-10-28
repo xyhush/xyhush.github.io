@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>xyhush · student homepage</title>
+  <meta name="description" content="Personal homepage of xyhush — a student learning to build things on the web." />
+  <meta name="color-scheme" content="dark light" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%230b1220'/><text x='50' y='70' font-size='56' font-family='system-ui,sans-serif' font-weight='600' fill='%237dd3fc' text-anchor='middle'>x</text></svg>" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="glow" aria-hidden="true"></div>
+
+  <header class="bar">
+    <a class="brand" href="#top">
+      <span class="mark">x</span>
+      <span>xyhush</span>
+    </a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#now">Now</a>
+      <a href="#links">Links</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="badge"><span class="dot"></span> student · learner · builder of small things</p>
+      <h1>Hi, I'm <span class="grad">xyhush</span>.</h1>
+      <p class="lead">
+        A student learning to build things on the web — one commit at a time.
+        This page is my small corner of the internet.
+      </p>
+      <div class="cta">
+        <a class="btn primary" href="https://github.com/xyhush">GitHub profile</a>
+        <a class="btn ghost" href="#now">What I'm up to</a>
+      </div>
+    </section>
+
+    <section id="about" class="block">
+      <h2>About</h2>
+      <div class="card">
+        <p>
+          I'm a student who likes figuring out how things work — whether that's a
+          physics experiment, a line of code, or the tooling that quietly holds the
+          web together.
+        </p>
+        <p>
+          I'm at the beginning of that journey, so this page is deliberately simple:
+          plain HTML and CSS, a handful of files, and a version history I can look
+          back on.
+        </p>
+      </div>
+    </section>
+
+    <section id="now" class="block">
+      <h2>What I'm doing now</h2>
+      <ul class="now-list">
+        <li>
+          <span class="k">Learning Git &amp; GitHub</span>
+          <span class="v">Commits, branches, pushing and pulling — this site is part of the practice.</span>
+        </li>
+        <li>
+          <span class="k">Building small web pages</span>
+          <span class="v">Writing HTML and CSS by hand, then tidying it up.</span>
+        </li>
+        <li>
+          <span class="k">Reading about the web</span>
+          <span class="v">How sites are served, and why boring, static pages are so reliable.</span>
+        </li>
+      </ul>
+    </section>
+
+    <section id="links" class="block">
+      <h2>Links</h2>
+      <div class="links">
+        <a class="link-card" href="https://github.com/xyhush">
+          <span class="link-title">GitHub</span>
+          <span class="link-sub">github.com/xyhush</span>
+        </a>
+        <a class="link-card" href="https://xyhush.github.io/">
+          <span class="link-title">This site</span>
+          <span class="link-sub">xyhush.github.io</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built by hand · Published with GitHub Pages · <span id="year">2026</span></p>
+    <p class="fine">This is a personal practice page for a Git &amp; GitHub exercise.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
